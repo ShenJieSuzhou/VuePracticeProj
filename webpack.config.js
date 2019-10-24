@@ -5,7 +5,7 @@ var htmlWebpackPlugin = require('html-webpack-plugin');
 
 var config = {
     entry: {
-        main: './main.js'
+        main: './src/main.js'
     },
     output: {
         path: path.join(__dirname, './dist'),
