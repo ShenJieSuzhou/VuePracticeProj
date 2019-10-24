@@ -1,21 +1,23 @@
 <template>
-    <div>
-        <h1>1111111111</h1>
+    <div class="home_container">
+        <itemcontainer father-component="home"></itemcontainer>
     </div>
 </template>
 
 <script>
-export default {
-   name: 'home',
-   components: {
+import itemcontainer from '../../components/itemcontainer.vue'
 
-   },
-   created(){
-       
-   }
+export default {
+    name: 'home',
+  	components: {
+  		itemcontainer
+  	},
+    created(){
+        
+    }
 }
 </script>
 
-<style>
+<style lang="less" scope>
 
 </style>

@@ -29,6 +29,13 @@ var config = {
                     'style-loader',
                     'css-loader'
                 ],
+            },
+            {
+                test: /\.less$/,
+                use: [
+                    'style-loader',
+                    'less-loader'
+                ],
             }
         ]
     },
